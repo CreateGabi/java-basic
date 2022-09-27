@@ -10,6 +10,7 @@ public class Exam02 {
 
 		double height2 = Double.parseDouble(height);
 
+		// 자바는 연산 시 연산하는 데이터 중 하나라도 실수이면 결과는 무조건 실수
 		double result = (height2 - 100.0) * 0.9;
 		
 		JOptionPane.showMessageDialog(null, "적정몸무게는 " + result);
